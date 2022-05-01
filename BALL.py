@@ -1,6 +1,9 @@
 import time
+import sys
 x = 0
 sleep=0.1
+
+print("------------------BALL.py------------------")
 time1=int(input("how long would you like the animation to play"))
 
                
@@ -30,5 +33,5 @@ for count in range(0,time1):
     print(" ")
     print("    =======\n   =========\n    =======\n     =====")
     time.sleep(sleep)
-
+import main
 

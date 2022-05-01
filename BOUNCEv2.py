@@ -1,5 +1,6 @@
 import time
 import random
+print("------------------BOUNCEv2.py------------------")
 x = time1=int(input("how long would you like the animation to play"))
 c = 0
 sleep=0.08
@@ -55,6 +56,7 @@ for i in range(0, x):
     time.sleep(sleep)
     num = random.randint(0,rand)
     c = c +1
+import main
     
     
    

@@ -1,5 +1,6 @@
 import time
 import random
+print("------------------BOUNCE.py------------------")
 x = int(input("how long would you like the animation to play"))
 c = 0
 sleep=0.08
@@ -26,6 +27,7 @@ for i in range(0, x):
     time.sleep(sleep)
     print("    ---------   ")
     time.sleep(sleep)
+import main
   
      
 
