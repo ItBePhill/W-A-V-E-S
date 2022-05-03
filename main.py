@@ -12,7 +12,8 @@ if ans == "exit" or ans == "quit":
   time.sleep(0.7)
   print("\rQuitting... \n", end = "")
   sys.exit()
-if ans == "ball":
+
+elif ans == "ball":
   print("opening BALL.py")
   print("\r.",end="")
   time.sleep(0.5)
@@ -51,31 +52,28 @@ elif ans == "waves":
   print("\r... \n",end="")
   time.sleep(0.5)
   exec(open("WAVES.py").read())
+  
+elif ans == "waves":
+  print("opening WAVES.py")
+  print("\r.",end="")
+  time.sleep(0.5)
+  print("\r..",end="")
+  time.sleep(0.5)
+  print("\r... \n",end="")
+  time.sleep(0.5)
+  exec(open("WAVES.py").read())
+  
+elif ans == "waves2":
+  print("opening WAVESv2.py")
+  print("\r.",end="")
+  time.sleep(0.5)
+  print("\r..",end="")
+  time.sleep(0.5)
+  print("\r... \n",end="")
+  time.sleep(0.5)
+  exec(open("WAVESv2.py").read())
+  
+  
 else:
   print("error: invalid input")
   exec(open("main.py").read())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-  
-
-
-  
-  

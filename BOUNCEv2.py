@@ -2,7 +2,7 @@ import time
 import random
 import sys
 print("------------------BOUNCEv2.py------------------")
-x = time1=int(input("how long would you like the animation to play"))
+x = int(input("how long would you like the animation to play"))
 c = 0
 sleep=0.08
 rand = int(input("Max random number?"))
