@@ -33,5 +33,6 @@ for count in range(0,time1):
     print(" ")
     print("    =======\n   =========\n    =======\n     =====")
     time.sleep(sleep)
-import main
+exec(exec(open("main.py").read()))
+sys.exit()
 
